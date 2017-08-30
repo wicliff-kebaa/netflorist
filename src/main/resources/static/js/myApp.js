@@ -108,7 +108,7 @@
 				app.controller("productCtrl", function($scope, $http)
 							{
 								
-								alert("Inside  the  product controller");
+								
 								$http({
 							        method : "GET",
 							        url : "/stocks"
